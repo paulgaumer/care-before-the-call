@@ -2,29 +2,24 @@ import React, { useContext } from 'react';
 import { navigate } from 'gatsby';
 import { injectIntl } from 'react-intl';
 
-import languages from '../i18n/languages';
-import PageContext from '../layout/PageContext';
-
-const buttonStyle = {
-  margin: '0.5rem',
-  borderRadius: '10px',
-  border: 0,
-  cursor: 'pointer',
-};
+import languages from '../../i18n/languages.js';
+import PageContext from '../../layout/PageContext.js';
+import styles from './langs.module.scss';
 
 const LangButton = ({ label, chosen, onClick }) => (
-  <button
+  <span
     onClick={onClick}
+    className={styles.langButton}
     style={{
-      background: chosen ? '#FFAF1E' : 'white',
-      ...buttonStyle,
+      borderBottom: chosen ? '2px solid black' : 'none',
     }}
   >
     {label}
-  </button>
+  </span>
 );
 
 const Langs = ({ intl: { locale } }) => {
+  console.log(locale);
   const pageContext = useContext(PageContext);
 
   const handleSetLang = language => {
@@ -38,14 +33,16 @@ const Langs = ({ intl: { locale } }) => {
   if (!pageContext.custom.localeKey) return null;
   return (
     <div>
-      {languages.map(language => (
-        <LangButton
-          key={language.locale}
-          label={language.label}
-          chosen={language.locale === locale}
-          onClick={() => handleSetLang(language.locale)}
-        />
-      ))}
+      {languages.map(language => {
+        return (
+          <LangButton
+            key={language.locale}
+            label={language.label}
+            chosen={language.locale === locale}
+            onClick={() => handleSetLang(language.locale)}
+          />
+        );
+      })}
     </div>
   );
 };
