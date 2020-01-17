@@ -21,8 +21,8 @@ const BehindCampaign = () => {
         </div>
       </div>
       <div className="portraits">
-        {portraits.map(portrait => {
-          return <Portrait character={portrait} key={portrait.name} />;
+        {Object.keys(portraits).map(portrait => {
+          return <Portrait character={portrait} key={portrait} />;
         })}
       </div>
     </section>

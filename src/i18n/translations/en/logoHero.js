@@ -1,8 +1,9 @@
 export default {
   'what-is-btc': {
-    title: 'What is Care Before the Call™?',
+    cbtc: 'Care Before the Call™',
+    title: 'What is',
     content:
-      'Care Before the Call™ was created to help 911 work better in Central Falls by educating residents on differences between emergency vs. non-emergency needs, while informing them of health care resources available in the city. It encourages proactive behavior, such as using Express Care Centers or scheduling regular check-ups with a family doctor, in hopes of addressing health care needs for individuals—and the community as a whole—before they require emergency care.',
+      'was created to help 911 work better in Central Falls by educating residents on differences between emergency vs. non-emergency needs, while informing them of health care resources available in the city. It encourages proactive behavior, such as using Express Care Centers or scheduling regular check-ups with a family doctor, in hopes of addressing health care needs for individuals—and the community as a whole—before they require emergency care.',
   },
   'why-important': {
     title: 'Why is it important?',

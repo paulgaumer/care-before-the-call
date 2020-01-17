@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-pink-background">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="pink-background" clip-path="url(#clip-pink-background)">
+    <rect width="1920" height="1080" fill="#f5abcc"/>
+    <path id="diagonal_pattern" data-name="diagonal pattern" d="M0,342.431,2197,842.945V900L0,399.485ZM0-114,2197,386.515v57.053L0-56.947ZM0,.108,2197,500.623v57.055L0,57.161ZM0,114.215,2197,614.729v57.055L0,171.268ZM0,228.324,2197,728.838v57.054L0,285.378Z" transform="translate(-93.96 -36.472) rotate(8)" fill="#ffd200" fill-rule="evenodd"/>
+  </g>
+</svg>

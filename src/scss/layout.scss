@@ -1,5 +1,63 @@
-@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './fonts.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+html {
+  font-size: 18px;
+}
+
+h2,
+h3 {
+  font-weight: $regular;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-weight: $semi-bold;
+}
+
+.extraBold {
+  font-weight: $extra-bold;
+}
+
+@include media-breakpoint-down(sm) {
+  html {
+    font-size: 12px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+}
+@include media-breakpoint-down(md) {
+  html {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  html {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
+// ______________________________________________________
 // html {
 //   font-family: sans-serif;
 //   -ms-text-size-adjust: 100%;

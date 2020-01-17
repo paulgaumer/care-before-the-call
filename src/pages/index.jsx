@@ -7,7 +7,7 @@ import BehindCampaign from '../components/Behind-campaign/behindCampaign';
 const IndexPage = () => (
   <>
     <LogoHero />
-    <BehindCampaign />
+    {/* <BehindCampaign /> */}
   </>
 );
 

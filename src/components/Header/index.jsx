@@ -1,37 +1,40 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '../Link';
+// import Link from '../Link';
 import Langs from '../Langs';
 
 const Header = ({ siteTitle, hideLangs }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      // marginBottom: `1.45rem`,
+      maxHeight: 100,
+      position: 'absolute',
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+    <div className="container">
+      <div
+      // style={{
+      //   margin: `0 auto`,
+      //   maxWidth: 960,
+      //   padding: `1.45rem 1.0875rem`,
+      //   display: 'flex',
+      //   justifyContent: 'space-between',
+      //   flexWrap: 'wrap',
+      // }}
+      >
+        {!hideLangs && <Langs />}
+        {/* <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
-      </h1>
-      {!hideLangs && <Langs />}
+      </h1> */}
+      </div>
     </div>
   </header>
 );
