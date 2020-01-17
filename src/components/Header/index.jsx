@@ -9,6 +9,9 @@ const Header = ({ siteTitle, hideLangs }) => (
       // marginBottom: `1.45rem`,
       maxHeight: 100,
       position: 'absolute',
+      left: 0,
+      right: 0,
+      top: 30,
     }}
   >
     <div className="container">
