@@ -22,14 +22,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   & > img {
     width: 349px;
   }
 }
 .cityLogo {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   .legend {
     padding-right: 15px;
     p {

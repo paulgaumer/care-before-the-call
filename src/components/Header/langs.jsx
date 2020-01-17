@@ -19,7 +19,6 @@ const LangButton = ({ label, chosen, onClick }) => (
 );
 
 const Langs = ({ intl: { locale } }) => {
-  console.log(locale);
   const pageContext = useContext(PageContext);
 
   const handleSetLang = language => {
