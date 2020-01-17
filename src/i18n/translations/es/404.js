@@ -1,4 +1,5 @@
 export default {
-  'NOT FOUND': 'NIE ZNALEZIONO',
-  'You just hit a route that doesnt exist the sadness': 'Zszedłeś na złą drogę... przykre bardzo.',
+  'NOT FOUND': 'NOT FOUND',
+  'You just hit a route that doesnt exist the sadness':
+    "You just hit a route that doesn't exist... the sadness.",
 };

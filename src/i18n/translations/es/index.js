@@ -2,9 +2,9 @@ import flatten from 'flat';
 
 import error404 from './404';
 import home from './home';
-import resources from './resources';
+import logoHero from './logoHero';
 import behindCampaign from './behindCampaign';
 
-const message = { error404, home, resources, behindCampaign };
+const messages = { error404, home, logoHero, behindCampaign };
 
-export default flatten(message);
+export default flatten(messages);

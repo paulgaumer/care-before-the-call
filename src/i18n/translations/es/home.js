@@ -1,8 +1,8 @@
 export default {
-  title: 'Strona główna',
-  'Hi people': 'No cześć',
-  'Welcome to your new Gatsby site': 'Witaj na Twojej nowej super stronie Gatsby.',
-  'Now go build something great': 'Teraz zbuduj coś wielkiego królewiczu złoty.',
-  'or learn more': '...albo dowiedz się więcej.',
-  'Go to page 2': 'Chodź na 2 stronę',
+  title: 'Home',
+  'Hi people': 'Hi people',
+  'Welcome to your new Gatsby site': 'Welcome to your new Gatsby site.',
+  'Now go build something great': 'Now go build something great.',
+  'or learn more': '...or learn more.',
+  'Go to page 2': 'Go to page 2',
 };

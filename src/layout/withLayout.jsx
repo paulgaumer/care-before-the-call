@@ -5,15 +5,16 @@ import { IntlProvider, addLocaleData } from 'react-intl';
 
 import PageContext from './PageContext';
 
-import plData from 'react-intl/locale-data/pl';
 import enData from 'react-intl/locale-data/en';
+import esData from 'react-intl/locale-data/es';
+import ptData from 'react-intl/locale-data/pt';
 import { translations, languages } from '../i18n';
 
 import Header from '../components/Header';
 import SEO from '../components/SEO';
 import '../scss/layout.scss';
 
-addLocaleData([...plData, ...enData]);
+addLocaleData([...enData, ...esData, ...ptData]);
 
 const withLayout = customProps => PageComponent => props => {
   const { locale } = props.pageContext;
