@@ -4,7 +4,6 @@ import styles from './portrait.module.scss';
 
 const Portrait = props => {
   const { character, image } = props;
-  console.log(character.role);
 
   return (
     <div className="col-sm-12 col-md-6 col-lg-4">

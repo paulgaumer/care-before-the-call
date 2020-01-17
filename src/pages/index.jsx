@@ -3,11 +3,13 @@ import withLayout from '../layout';
 
 import LogoHero from '../components/Logo-hero/logoHero';
 import BehindCampaign from '../components/Behind-campaign/behindCampaign';
+import TripleCta from '../components/Triple-cta/tripleCta';
 
 const IndexPage = () => (
   <>
     <LogoHero />
     <BehindCampaign />
+    <TripleCta />
   </>
 );
 
