@@ -1,0 +1,15 @@
+.topSection {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  img {
+    width: 174px;
+    margin: 0 70px;
+  }
+}
+
+.textSide {
+  flex: 1 0 70%;
+}

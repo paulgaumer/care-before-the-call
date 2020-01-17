@@ -20,8 +20,11 @@ p {
   font-weight: $semi-bold;
 }
 
-.extraBold {
+.extra-bold {
   font-weight: $extra-bold;
+}
+.bio-description-fontsize {
+  font-size: 16px;
 }
 
 @include media-breakpoint-down(sm) {
@@ -54,6 +57,9 @@ p {
   }
   h3 {
     font-size: 18px;
+  }
+  .bio-description-fontsize {
+    font-size: 12px;
   }
 }
 

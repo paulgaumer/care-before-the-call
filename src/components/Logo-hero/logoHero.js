@@ -14,13 +14,13 @@ const LogoHero = () => {
             <div className={styles.paragraphe}>
               <h2>
                 <FormattedMessage id="logoHero.what-is-btc.title" />{' '}
-                <span className="extraBold">
+                <span className="extra-bold">
                   <FormattedMessage id="logoHero.what-is-btc.cbtc" />
                 </span>
                 ?
               </h2>
               <p>
-                <span className="extraBold">
+                <span className="extra-bold">
                   <FormattedMessage id="logoHero.what-is-btc.cbtc" />
                 </span>{' '}
                 <FormattedMessage id="logoHero.what-is-btc.content" />
