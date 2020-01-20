@@ -5,6 +5,7 @@ import LogoHero from '../components/Logo-hero/logoHero';
 import BehindCampaign from '../components/Behind-campaign/behindCampaign';
 import TripleCta from '../components/Triple-cta/tripleCta';
 import Resources from '../components/Resources/resources';
+import Follow from '../components/Follow/follow';
 
 const IndexPage = () => (
   <>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <BehindCampaign />
     <TripleCta />
     <Resources />
+    <Follow />
   </>
 );
 
