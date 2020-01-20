@@ -2,17 +2,29 @@
 .resources {
   display: flex;
   padding: 100px 0;
+}
 
-  h2 {
-    flex: 1 0 40%;
-    text-align: center;
-  }
+.title {
+  flex: 0 0 40%;
+  text-align: center;
 }
 
 .list {
   ul {
-    list-style-type: '\2193';
     font-weight: $semi-bold;
+    list-style: none;
+
+    img {
+      display: inline-block;
+      width: 10px;
+    }
+  }
+  li {
+    line-height: 36px;
+
+    a {
+      color: black;
+    }
   }
   li span {
     position: relative;

@@ -1,19 +1,26 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styles from './resources-list.module.scss';
+import arrowDown from '../../images/icons/arrow-down.svg';
 
-const ResourcesLists = props => {
+const ResourcesLists = ({ list }) => {
   return (
     <div className={styles.resources}>
-      <h2 className="extra-bold">
-        <FormattedMessage id={`resources.title`} />
-      </h2>
+      <div className={styles.title}>
+        <h2 className="extra-bold">
+          <FormattedMessage id={`resources.title`} />
+        </h2>
+      </div>
       <div className={styles.list}>
         <ul className="">
-          {Object.keys(props.list).map(resource => {
+          {Object.keys(list).map(resource => {
+            const name = list[resource].abbreviation ? list[resource].abbreviation : resource;
             return (
               <li>
-                <span>{resource}</span>
+                <a href={`#${resource}`}>
+                  <img src={arrowDown} alt="arrow" />
+                  <span>{name}</span>
+                </a>
               </li>
             );
           })}

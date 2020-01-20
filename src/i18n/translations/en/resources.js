@@ -51,6 +51,7 @@ export default {
         'Gateway Healthcare provides outstanding treatment, intervention and prevention services to adults and children of all cultural and economic backgrounds with behavioral and substance abuse issues, through its residential, outpatient and community-based programs. With numerous locations across the state, Gateway Healthcare delivers services to more than 25,000 Rhode Islanders each year.',
     },
     'Blackstone Valley Community Health Care: Neighborhood Health Station': {
+      abbreviation: 'BVCHC: Neighborhood Health Station',
       website: 'bvchc.org',
       image: bvchcHealthStation,
       rounded: true,
@@ -65,6 +66,7 @@ export default {
         'The Blackstone Valley Neighborhood Health Station has developed a team of health care workers who together care for everyone who lives in Central Falls.',
     },
     'Blackstone Valley Community Health Care: Express Health Care': {
+      abbreviation: 'BVCHC: Express Health Care',
       website: 'bvchc.org/services/express-health-care',
       image: bvchcHealthExpress,
       rounded: true,

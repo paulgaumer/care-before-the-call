@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import styles from './cta.module.scss';
 
 const Cta = props => {
@@ -28,7 +28,7 @@ const Cta = props => {
           </div>
           <div className={`${styles.btnSide} extra-bold`}>
             <a href={link}>
-              <FormattedMessage id={`tripleCta.${cta}.cta`} />
+              <FormattedHTMLMessage id={`tripleCta.${cta}.cta`} />
             </a>
           </div>
         </div>

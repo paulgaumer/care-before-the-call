@@ -32,7 +32,7 @@ const Hours = ({ hour, index, name }) => {
 const ResourcesCard = props => {
   const { resource, name } = props;
   return (
-    <div className={styles.resourceCard}>
+    <div className={styles.resourceCard} id={name}>
       <div className={styles.image}>
         <img
           src={resource.image}
