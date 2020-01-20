@@ -23,7 +23,7 @@ const Cta = props => {
               <FormattedMessage id={`tripleCta.${cta}.title`} />
             </h2>
             <p>
-              <FormattedMessage id={`tripleCta.${cta}.content`} />
+              <FormattedHTMLMessage id={`tripleCta.${cta}.content`} />
             </p>
           </div>
           <div className={`${styles.btnSide} extra-bold`}>
