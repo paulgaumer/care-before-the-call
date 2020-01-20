@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1592" height="583" viewBox="0 0 1592 583">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="caribbean_blue_bg" data-name="caribbean blue bg" width="1366" height="500" transform="translate(293 207)" fill="#89d0c8"/>
+    </clipPath>
+  </defs>
+  <g id="red-background" transform="translate(-293 -183)">
+    <rect id="caribbean_blue_bg-2" data-name="caribbean blue bg" width="1592" height="583" transform="translate(293 183)" fill="#89d0c8"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(113 18)" clip-path="url(#clip-path)">
+      <path id="elipses" d="M1455.332,5055.538c0,96.591-78.443,174.887-175.2,174.887s-175.206-78.3-175.206-174.887,78.445-174.876,175.206-174.876S1455.332,4958.958,1455.332,5055.538Zm-507.795,0c0,96.591-78.441,174.887-175.2,174.887s-175.205-78.3-175.205-174.887,78.441-174.876,175.205-174.876,175.2,78.3,175.2,174.876Zm-507.793,0c0,96.591-78.443,174.887-175.2,174.887S89.332,5152.13,89.332,5055.538s78.441-174.876,175.2-174.876,175.208,78.3,175.208,174.876Z" transform="translate(203.668 -4598.543)" fill="#f27179" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

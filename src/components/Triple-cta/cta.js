@@ -8,7 +8,11 @@ const Cta = props => {
   const reverse = index % 2 !== 0;
 
   return (
-    <div className={styles.wrapper}>
+    <div
+      className={styles.wrapper}
+      style={{ backgroundImage: `url(${props.background})` }}
+      id="wrap"
+    >
       <div className="container">
         <div
           className={styles.ctaContainer}
