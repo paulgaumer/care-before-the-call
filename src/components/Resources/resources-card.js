@@ -55,17 +55,17 @@ const ResourcesCard = props => {
             <Addresses address={address} />
           ))}
         </div>
+        {resource.description !== undefined && (
+          <p className={styles.description}>
+            <FormattedMessage id={`resources.list.${name}.description`} />
+          </p>
+        )}
         {resource.hours !== undefined && (
           <div className={styles.hoursDetails}>
             {resource.hours.map((hour, i) => (
               <Hours hour={hour} index={i} name={name} />
             ))}
           </div>
-        )}
-        {resource.description !== undefined && (
-          <p className={styles.description}>
-            <FormattedMessage id={`resources.list.${name}.description`} />
-          </p>
         )}
       </div>
     </div>
