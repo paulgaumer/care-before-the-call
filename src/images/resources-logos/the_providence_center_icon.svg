@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234" height="234" viewBox="0 0 234 234">
+  <g id="Group_1" data-name="Group 1" transform="translate(-160 -400)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="117" cy="117" r="117" transform="translate(160 400)" fill="#26aae1"/>
+    <g id="the_providence_center_icon" transform="translate(201 444)">
+      <path id="Path_1" data-name="Path 1" d="M86.876,147,82.043,83.317c21.028-2.869,37.225-20.411,37.225-41.685,0-21.153-16.02-38.618-36.88-41.632C121.37,3.163,152,34.96,152,73.743c0,37.285-28.3,68.117-65.124,73.257Z" fill="#fefefe" fill-rule="evenodd"/>
+      <path id="Path_2" data-name="Path 2" d="M47.408,41.632c0-15.38,12.8-27.847,28.592-27.847s28.594,12.468,28.594,27.847S91.793,69.482,76,69.482,47.408,57.014,47.408,41.632Z" fill="#fcb040" fill-rule="evenodd"/>
+      <path id="Path_3" data-name="Path 3" d="M65.124,147C28.3,141.86,0,111.028,0,73.743,0,34.96,30.63,3.163,69.612,0,48.752,3.014,32.733,20.479,32.733,41.632c0,21.274,16.2,38.816,37.225,41.685Z" fill="#cfe5ae" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

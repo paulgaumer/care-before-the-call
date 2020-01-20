@@ -1,0 +1,60 @@
+.resourceCard {
+  display: flex;
+  border-top: 2px solid #88d0c8;
+  padding: 80px 0;
+}
+.image {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  img {
+    max-width: 250px;
+    padding-top: 5px;
+  }
+}
+
+.info {
+  padding-left: 40px;
+  h2 {
+    line-height: 48px;
+  }
+  a {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 35px;
+  }
+}
+.addressesDetails {
+  display: flex;
+  & > div {
+    padding-right: 35px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+.addressName {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #82c55b;
+}
+
+.hourName {
+  margin-top: 35px;
+  margin-bottom: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #f17079;
+}
+.hourOption {
+  margin: 0;
+}
+
+.description {
+  margin-top: 35px;
+}

@@ -9,13 +9,10 @@ const selectBackground = bg => {
   switch (bg) {
     case 'redBackground':
       return redBackground;
-      break;
     case 'purpleBackground':
       return purpleBackground;
-      break;
     case 'yellowBackground':
       return yellowBackground;
-      break;
     default:
       return redBackground;
   }

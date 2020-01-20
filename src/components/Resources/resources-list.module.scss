@@ -1,0 +1,21 @@
+@import '../../scss/fonts.scss';
+.resources {
+  display: flex;
+  padding: 100px 0;
+
+  h2 {
+    flex: 1 0 40%;
+    text-align: center;
+  }
+}
+
+.list {
+  ul {
+    list-style-type: '\2193';
+    font-weight: $semi-bold;
+  }
+  li span {
+    position: relative;
+    left: 10px;
+  }
+}
