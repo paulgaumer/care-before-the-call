@@ -18,6 +18,23 @@
   text-align: start;
 }
 
+.modalTrigger {
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.modalCard {
+  padding: 50px;
+  text-align: center;
+  img {
+    width: 196px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: $screen-md) {
   .card {
     padding: 0 50px 70px;
@@ -30,6 +47,9 @@
     }
   }
   .role {
+    font-size: 11px;
+  }
+  .modalTrigger {
     font-size: 11px;
   }
 }
@@ -50,5 +70,8 @@
   }
   .description {
     margin-top: 30px;
+  }
+  .modalTrigger {
+    font-size: 10px;
   }
 }
