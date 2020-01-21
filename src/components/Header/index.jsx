@@ -27,11 +27,13 @@ const Header = ({ siteTitle, hideLangs }) => {
       >
         <div className="container">
           <div className={styles.navbar}>
-            <div className={`${styles.navContent} d-none`}>
-              <div>{!hideLangs && <Langs />}</div>
-              <Socials />
+            <div className="d-none d-sm-block ">
+              <div className={`${styles.navContent}`}>
+                <div>{!hideLangs && <Langs />}</div>
+                <Socials />
+              </div>
             </div>
-            <div className={`${styles.navMobile} d-block d-sm-block`}>
+            <div className={`${styles.navMobile} d-block d-sm-none`}>
               <img src={menuIcon} alt="mobile menu" onClick={handleShow} />
             </div>
           </div>
