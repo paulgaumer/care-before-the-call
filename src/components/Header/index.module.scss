@@ -1,4 +1,4 @@
-.navbar {
+.navContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,4 +7,17 @@
     width: 60px;
     padding-left: 30px;
   }
+}
+
+.navMobile {
+  float: right;
+  img {
+    width: 30px;
+  }
+}
+.modalWidth {
+  width: 100%;
+}
+.modalContent {
+  // padding-left: 10px;
 }

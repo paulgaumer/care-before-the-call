@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import styles from './portrait.module.scss';
 
 const Portrait = ({ character, image }) => {
