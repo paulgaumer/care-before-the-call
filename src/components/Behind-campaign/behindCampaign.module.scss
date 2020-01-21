@@ -11,18 +11,32 @@
 
   img {
     width: 174px;
-    margin: 0 70px;
+    // margin: 0 70px;
   }
 }
 
 .textSide {
-  flex: 1 0 70%;
+  flex: 0 0 70%;
 }
 
-@media (max-width: $screen-md) {
+@media (max-width: $screen-sm) {
   .topSection {
     img {
       display: none;
+    }
+  }
+}
+@media (max-width: $screen-md) {
+  .topSection {
+    img {
+      width: 94px;
+    }
+  }
+}
+@media (max-width: $screen-lg) {
+  .topSection {
+    img {
+      width: 131px;
     }
   }
 }

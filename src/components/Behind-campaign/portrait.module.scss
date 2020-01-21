@@ -1,3 +1,5 @@
+@import '../../scss/media.scss';
+
 .card {
   padding: 0 50px 100px;
   text-align: center;
@@ -14,4 +16,39 @@
 .description {
   margin-top: 50px;
   text-align: start;
+}
+
+@media (max-width: $screen-md) {
+  .card {
+    padding: 0 50px 70px;
+    img {
+      width: 110px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+  .role {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: $screen-lg) {
+  .card {
+    padding: 0 50px 70px;
+    img {
+      width: 146px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+  }
+  .role {
+    font-size: 10px;
+  }
+  .description {
+    margin-top: 30px;
+  }
 }
