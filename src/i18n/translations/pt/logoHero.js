@@ -1,7 +1,7 @@
 export default {
   'what-is-btc': {
     cbtc: 'Care Before the Call™',
-    title: '(Pt) What is',
+    title: 'What is',
     content:
       'was created to help 911 work better in Central Falls by educating residents on differences between emergency vs. non-emergency needs, while informing them of health care resources available in the city. It encourages proactive behavior, such as using Express Care Centers or scheduling regular check-ups with a family doctor, in hopes of addressing health care needs for individuals—and the community as a whole—before they require emergency care.',
   },

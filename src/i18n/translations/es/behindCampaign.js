@@ -1,62 +1,73 @@
 export default {
   'who-behind-campaign': {
-    title: 'Who’s behind the campaign?',
+    title: '¿Quién está detrás de la campaña?',
     content:
-      'The Central Falls Office on Health is charged with helping Central Falls to become the healthiest city in Rhode Island. In coordination with several groups within our closely-knit community, we work to make sure all residents of Central Falls get the health services they need, and that those health services are effective at improving the health of everyone in the city. Since its establishment by Mayor James Diossa in April of 2016, the Office on Health has assisted both the Mayor and the City Council in making health related decisions for the community.',
+      '<strong>La Oficina de Salud de Central Falls</strong> está encargada de ayudar a Central Falls a convertirse en la ciudad más saludable de Rhode Island. En coordinación con varios grupos dentro de nuestra comunidad muy unida, trabajamos para asegurarnos de que todos los residentes de Central Falls reciban los servicios de salud que necesitan, y que esos servicios de salud sean efectivos para mejorar la salud de todos en la ciudad. Desde su creación por el alcalde James Diossa en abril de 2016, la Oficina de Salud ha ayudado tanto al Alcalde como al Ayuntamiento a tomar decisiones relacionadas con la salud para la comunidad.',
   },
   portraits: {
     'Michael Fine, MD': {
-      role: 'Chief Health Strategist',
+      role: 'Jefe de Estrategias de Salud',
+      image: 'michael_fine.jpg',
       description:
-        'Dr. Fine is a writer, a community organizer, a family physician, and a public health provocateur. He currently Chief Health Strategist to Mayor James Diossa and the City of Central Falls, Rhode Island, and Senior Clinical and Population Health Services Officer of Blackstone Valley Community Health Care, Inc., which together opened the first Neighborhood Health Station in the US, in February of 2019. He served in the Cabinet of Governor Lincoln Chafee as Director of the Rhode Island Department of Health (HEALTH) from February of 2011 until March of 2015, overseeing a broad range of public health programs and services.',
+        'El Dr. Fine es escritor, organizador comunitario, médico de familia y provocador de salud pública. Actualmente es el Principal Estratega de Salud para el Alcalde James Diossa y la ciudad de Central Falls, Rhode Island, y el Oficial Superior de Servicios de Salud Clínicos y de Población de Estación de Salud Vecinal del Valle Blackstone, Inc., que juntos abrieron la primera estación de salud del vecindario en los EE. UU. en febrero de 2019. Sirvió en el Gabinete del Gobernador Lincoln Chafee como Director del Departamento de Salud de Rhode Island (HEALTH) desde febrero de 2011 hasta marzo de 2015, supervisando una amplia gama de programas y servicios de salud pública.',
     },
     'Deborah Navarro': {
-      role: 'Community Health Coach',
+      role: 'Entrenador de Salud Comunitaria',
+      image: 'deborah_navarro.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Scott Hewitt': {
-      role: 'Chief Data Analyst',
+      role: 'Analista Jefe de Datos',
+      image: 'scott_hewitt.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'James Diossa': {
-      role: 'Central Falls Mayor',
+      role: 'Alcalde de Central Falls',
+      image: 'james_diossa.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Maria Rivera': {
-      role: 'City Council President',
+      role: 'Presidente del Ayuntamiento',
+      image: 'maria_rivera.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Robert Bradley': {
-      role: 'Central Falls Fire Chief',
+      role: 'Jefe de Bomberos de Central Falls',
+      image: 'robert_bradley.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Ryan Bradley': {
-      role: 'EMS Coordinator',
+      role: 'Coordinador de EMS',
+      image: 'ryan_bradley.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Raymond J. Lavoie': {
-      role: 'Executive Director, BVCHC',
+      role: 'Director Ejecutivo, BVCHC',
+      image: 'raymond_lavoie.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'Cristina Pacheco, MD': {
-      role: 'BVCHC Provider',
+      role: 'Proveedor BVCHC',
+      image: 'cristina_pacheco.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'David Sam, MD': {
-      role: 'BVCHC Provider',
+      role: 'Proveedor BVCHC',
+      image: 'david_sam.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
     'America Foster, MD': {
-      role: 'BVCHC Provider',
+      role: 'Proveedor BVCHC',
+      image: 'america_foster.jpg',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
     },
