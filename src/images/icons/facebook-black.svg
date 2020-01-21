@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="56px" viewBox="0 0 57 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>social_icons-path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook-black" fill="#000000" fill-rule="nonzero">
+            <path d="M32.72,36 L39.504,36 L40.624,27.8 L32.724,27.8 L32.724,23 C32.724,20.1 34.592,18.4 36.333,18.4 L41.002,18.4 L41.002,11.6 C39.0158783,11.0589457 36.9590555,10.8229168 34.902,10.9 C30.421,10.9 23.95,12.7 23.95,21.9 L23.95,27.8 L16.669,27.8 L16.669,36 L23.95,36 L23.95,55.3 C10.2616879,53.322614 0.0786370372,41.6301757 0,27.8 C0,12.5 12.7,0 28.365,0 C44.03,0 56.73,12.5 56.73,27.8 C56.6699488,41.6550108 46.4494896,53.3659537 32.73,55.3 L32.73,36 L32.72,36 Z" id="social_icons-path"></path>
+        </g>
+    </g>
+</svg>
