@@ -2,11 +2,27 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styles from './logoHero.module.scss';
 
-import logoCare from '../../images/cbtc_logo_english.svg';
+import logoCareEN from '../../images/cbtc_logo_english.svg';
+import logoCareES from '../../images/cbtc_logo_spanish.svg';
+import logoCarePT from '../../images/cbtc_logo_portuguese.svg';
 import logoCity from '../../images/office_on_health_badge.svg';
 import chevronDown from '../../images/icons/chevron-down.svg';
 
 const LogoHero = () => {
+  const selectLogoLanguage = () => {
+    const language = localStorage.getItem('language');
+    switch (language) {
+      case 'en':
+        return logoCareEN;
+      case 'es':
+        return logoCareES;
+      case 'pt':
+        return logoCarePT;
+      default:
+        return logoCareEN;
+    }
+  };
+
   return (
     <section className={styles.section}>
       <div className="container">
@@ -15,7 +31,11 @@ const LogoHero = () => {
           <div className={styles.logoSide}>
             <div>
               <div className={styles.logoGroup}>
-                <img src={logoCare} alt="Care Before The Call" className={styles.logoCare} />
+                <img
+                  src={selectLogoLanguage()}
+                  alt="Care Before The Call"
+                  className={styles.logoCare}
+                />
                 <div className={styles.cityLogo}>
                   <div className={styles.legend}>
                     <p>Brought to you by the</p>
