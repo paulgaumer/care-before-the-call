@@ -1,5 +1,6 @@
+@import '../../scss/media.scss';
 .wrapper {
-  background-color: #F4F0F0;
+  background-color: #f4f0f0;
 }
 
 .footer {
@@ -13,5 +14,30 @@
 
   p {
     margin: 0;
+  }
+  p:last-of-type {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .footer {
+    padding: 40px 0 30px;
+    img {
+      width: 100px;
+      margin: 40px 0;
+    }
+  }
+}
+@media (max-width: $screen-lg) {
+  .footer {
+    padding: 60px 0 40px;
+    img {
+      width: 150px;
+      margin: 40px 0;
+    }
+    p:last-of-type {
+      font-size: 10px;
+    }
   }
 }
