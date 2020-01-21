@@ -2,7 +2,7 @@ export default {
   'who-behind-campaign': {
     title: 'Who’s behind the campaign?',
     content:
-      'The Central Falls Office on Health is charged with helping Central Falls to become the healthiest city in Rhode Island. In coordination with several groups within our closely-knit community, we work to make sure all residents of Central Falls get the health services they need, and that those health services are effective at improving the health of everyone in the city. Since its establishment by Mayor James Diossa in April of 2016, the Office on Health has assisted both the Mayor and the City Council in making health related decisions for the community.',
+      '<strong>The Central Falls Office on Health</strong> is charged with helping Central Falls to become the healthiest city in Rhode Island. In coordination with several groups within our closely-knit community, we work to make sure all residents of Central Falls get the health services they need, and that those health services are effective at improving the health of everyone in the city. Since its establishment by Mayor James Diossa in April of 2016, the Office on Health has assisted both the Mayor and the City Council in making health related decisions for the community.',
   },
   portraits: {
     'Michael Fine, MD': {

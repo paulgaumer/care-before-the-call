@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 import Portrait from './portrait';
 import styles from './behindCampaign.module.scss';
 import portraitsList from '../../i18n/translations/en/behindCampaign';
@@ -17,7 +17,7 @@ const BehindCampaign = () => {
               <FormattedMessage id="behindCampaign.who-behind-campaign.title" />
             </h2>
             <p>
-              <FormattedMessage id="behindCampaign.who-behind-campaign.content" />
+              <FormattedHTMLMessage id="behindCampaign.who-behind-campaign.content" />
             </p>
           </div>
         </div>

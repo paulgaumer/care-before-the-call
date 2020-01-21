@@ -1,3 +1,4 @@
+@import '../../scss/media.scss';
 .wrapper {
   background-color: #f4f0f0;
 }
@@ -16,4 +17,12 @@
 
 .textSide {
   flex: 1 0 70%;
+}
+
+@media (max-width: $screen-md) {
+  .topSection {
+    img {
+      display: none;
+    }
+  }
 }

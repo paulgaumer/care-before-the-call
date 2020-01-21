@@ -64,7 +64,7 @@
 }
 
 // RESPONSIVE
-@media (max-width: $screen-sm) {
+@media (max-width: $screen-xs) {
   .section {
     padding-top: 70px;
   }
@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width: $screen-md) {
+@media (max-width: $screen-sm) {
   .textSide {
     flex: 0 0 45%;
   }
@@ -111,13 +111,13 @@
   }
 }
 
-@media (max-width: $screen-lg) {
+@media (max-width: $screen-md) {
   .logoGroup > img {
     width: 244px;
   }
 }
 
-@media (max-width: $screen-xl) {
+@media (max-width: $screen-lg) {
   .logoGroup > img {
     width: 262px;
   }
