@@ -13,14 +13,16 @@ const LogoHero = () => {
         {/* <div className="row"> */}
         <div className={styles.hero}>
           <div className={styles.logoSide}>
-            <div className={styles.logoGroup}>
-              <img src={logoCare} alt="Care Before The Call" className={styles.logoCare} />
-              <div className={styles.cityLogo}>
-                <div className={styles.legend}>
-                  <p>Brought to you by the</p>
-                  <p>Central Falls Office on Health</p>
+            <div>
+              <div className={styles.logoGroup}>
+                <img src={logoCare} alt="Care Before The Call" className={styles.logoCare} />
+                <div className={styles.cityLogo}>
+                  <div className={styles.legend}>
+                    <p>Brought to you by the</p>
+                    <p>Central Falls Office on Health</p>
+                  </div>
+                  <img src={logoCity} alt="City of Central Falls" />
                 </div>
-                <img src={logoCity} alt="City of Central Falls" />
               </div>
             </div>
             <div className={styles.chevronDown}>
