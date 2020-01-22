@@ -1,4 +1,4 @@
 export default {
   title: 'Follow',
-  content: 'Follow along for updates and more!',
+  content: 'Siga as atualizações e muito mais!',
 };

@@ -1,24 +1,24 @@
 export default {
   'family-doc': {
-    title: 'Need a family doctor?',
+    title: 'Precisa de um médico de família?',
     content:
-      'Consider contacting the Blackstone Valley Community Health Care to become a new patient. The aim of family medicine is to provide personal, comprehensive and continuing care for the individual in the context of the family and the community which includes annual physical examinations and chronic disease management: arthritis, diabetes, obesity, asthma, high blood pressure and others.',
-    cta: 'Set up an appointment',
+      'Considere entrar em contato com o Centro de Saúde da Comunidade Blackstone Valley para se tornar um novo paciente. O objetivo da medicina de família é fornecer atendimento pessoal, abrangente e contínuo ao indivíduo no contexto da família e da comunidade, que inclui exames físicos anuais e tratamento de doenças crônicas: artrite, diabetes, obesidade, asma, pressão alta e outros.',
+    cta: 'Marcar uma consulta',
     link: 'http://www.bvchc.org/services/family-medicine',
     background: 'redBackground',
   },
   emt: {
-    title: 'Emergency Medical Services (EMT)',
+    title: 'Serviços Médicos de Emergência (EMT)',
     content:
-      'EMS is for life threatening injuries including chest pains, shortness of breath, unconsciousness, serious bleeding, and seriously broken bones. For most other things, a better option may include seeing your primary care doctor or using Notre Dame Hospital.',
-    cta: `Learn more about EMS<br>in Central Falls`,
+      'O EMS é para lesões com risco de vida, incluindo dores no peito, falta de ar, inconsciência, sangramento grave e ossos gravemente quebrados. Para a maioria das outras coisas, uma opção melhor pode incluir consultar o seu médico de cuidados primários ou usar o Hospital Notre Dame.',
+    cta: `Saiba mais sobre o EMS<br>em Central Falls`,
     link: 'http://centralfallsfire.com/',
     background: 'purpleBackground',
   },
   'express-care': {
-    title: 'Express Care',
-    content: `Walk-Ins are welcome at Blackstone Valley Community Health Care every Saturday at 39 East Avenue in Pawtucket from 8am–4:30pm. No appointment is required.<br><br>Walk-ins also available at Notre Dame Express Health, 1000 Broad Street in Central Falls. Monday–Thursday from 8am to 8pm, Friday from 8am–5pm, and Saturday 8am–4:30pm (closed Sundays).`,
-    cta: 'Learn more about<br>Express Care',
+    title: 'Cuidados Expresos',
+    content: `Consultas sem marcação prévia, são bem-vindos no Blackstone Valley Health Care todos os sábados, na 39 East Avenue em Pawtucket, das 8 às 16:30. Não é necessário agendamento.<br><br>Consultas sem marcação prévia, também estão disponíveis no Centro de Cuidados Expressos na Notre Dame, 1000 Broad Street, em Central Falls. Segunda a Quinta-Feira das 8h às 20h, Sexta-Feira das 8h às 17h e Sábado das 8h às 16h30 (fechado aos Domingos).`,
+    cta: 'Saiba mais sobre o<br>Cuidado  Mecico Expresso',
     link: ' http://www.bvchc.org/services/express-health-care',
     background: 'yellowBackground',
   },

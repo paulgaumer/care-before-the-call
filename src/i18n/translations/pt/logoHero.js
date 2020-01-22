@@ -1,13 +1,13 @@
 export default {
   'what-is-btc': {
-    cbtc: 'Care Before the Call™',
-    title: 'What is',
+    cbtc: 'Cuidado antes da Chamada™',
+    title: 'O que é',
     content:
-      'was created to help 911 work better in Central Falls by educating residents on differences between emergency vs. non-emergency needs, while informing them of health care resources available in the city. It encourages proactive behavior, such as using Express Care Centers or scheduling regular check-ups with a family doctor, in hopes of addressing health care needs for individuals—and the community as a whole—before they require emergency care.',
+      ', está sendo criada para ajudar o 911 a funcionar melhor em Central Falls, educando os residentes sobre as diferenças entre as necessidades emergenciais e não emergenciais, informando-os sobre os recursos de saúde disponíveis na cidade. Incentiva um comportamento proativo, como usar o Centro de Cuidados Expresso  ou agendar consultas regulares com um médico de família, na esperança de atender às necessidades de cuidados de saúde de indivíduos e da comunidade como um todo - antes que eles requeiram atendimento de emergência.',
   },
   'why-important': {
-    title: 'Why is it important?',
+    title: 'Por que é isso importante ?',
     content:
-      'Unnecessary 911 calls in the Central Falls community can stretch City resources and potentially compromise quality emergency care for those who truly need it. When individuals embrace Care Before the Call™ and become active participants in their personal health using available resources, such as family doctors at the Blackstone Valley Neighborhood Health Station, we hope to reduce the number of unnecessary 911 calls in the City of Central Falls as we work towards becoming the healthiest community in Rhode Island.',
+      'Chamadas 911 desnecessárias na comunidade de Central Falls podem aumentar os recursos da cidade e comprometer o atendimento de emergência de qualidade para aqueles que realmente precisam. Quando os indivíduos adotam o Cuidado antes da Chamada e se tornam participantes ativos de sua saúde pessoal, usando os recursos disponíveis, como médicos de família no posto de saúde do bairro Blackstone Valley, esperamos reduzir o número de 911 chamadas desnecessárias na cidade de Central Falls enquanto trabalhamos. para se tornar a comunidade mais saudável de Rhode Island.',
   },
 };

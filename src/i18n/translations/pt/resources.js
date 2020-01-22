@@ -14,44 +14,44 @@ import bhLink from '../../../images/resources-logos/bh_link_logo.png';
 import bavcLogo from '../../../images/resources-logos/bvac_logo.svg';
 
 export default {
-  title: 'Resources',
+  title: 'Recursos',
   list: {
-    'The Providence Center': {
+    'O Centro de Providence': {
       website: 'providencecenter.org',
       image: providenceCenter,
       addresses: [
         {
-          name: 'Adult outpatient services',
+          name: 'Serviços Ambulatoriais para Adultos',
           street: '530 North Main Street',
           city: 'Providence, RI 02904',
           phone: '(401) 528-0110',
         },
         {
-          name: 'Child and family services',
+          name: 'Serviços para Crianças e Famílias',
           street: '520 Hope Street',
           city: 'Providence, RI 02906',
           phone: '(401) 276-4155',
         },
       ],
       description:
-        'The Providence Center helps adults, adolescents and children affected by psychiatric illnesses, emotional problems and addictions by providing treatment and supportive services within a community setting.',
+        'O Centro de  Providence ajuda adultos, adolescentes e crianças afetadas por doenças psiquiátricas, problemas emocionais e vícios, fornecendo tratamento e serviços de apoio em um ambiente comunitário.',
     },
-    'Gateway Healthcare': {
+    'Portal de Assistência Médica': {
       website: 'gatewayhealth.org',
       image: gatewayHealth,
       addresses: [
         {
-          name: 'Gateway Healthcare Administrative Offices',
+          name: 'Escritórios administrativos da Gateway Healthcare',
           street: '249 Roosevelt Avenue, Suite 205',
           city: 'Pawtucket, RI 02860',
           phone: '(401) 724-8400',
         },
       ],
       description:
-        'Gateway Healthcare provides outstanding treatment, intervention and prevention services to adults and children of all cultural and economic backgrounds with behavioral and substance abuse issues, through its residential, outpatient and community-based programs. With numerous locations across the state, Gateway Healthcare delivers services to more than 25,000 Rhode Islanders each year.',
+        'O Portal de Assistência Médica fornece excelentes serviços de tratamento, intervenção e prevenção a adultos e crianças de todas as origens culturais e econômicas com problemas comportamentais e de abuso de substâncias, por meio de seus programas residenciais, ambulatoriais e comunitários. Com vários locais em todo o estado, o Portal de Assistência Médica  presta serviços a mais de 25.000 habitantes de Rhode Island todos os anos.',
     },
-    'Blackstone Valley Community Health Care: Neighborhood Health Station': {
-      abbreviation: 'BVCHC: Neighborhood Health Station',
+    'Assistência Médica Comunitária do Vale de Blackstone : Estação de saúde do bairro': {
+      abbreviation: 'BVCHC: Estação de saúde do bairro',
       website: 'bvchc.org',
       image: bvchcHealthStation,
       rounded: true,
@@ -63,22 +63,22 @@ export default {
         },
       ],
       description:
-        'The Blackstone Valley Neighborhood Health Station has developed a team of health care workers who together care for everyone who lives in Central Falls.',
+        'A Estação de Saúde de Bairro de Vae de Blackstone desenvolveu uma equipa de profissionais de saúde que, juntos, cuidam de todos que vivem em Central Falls.',
     },
-    'Blackstone Valley Community Health Care: Express Health Care': {
-      abbreviation: 'BVCHC: Express Health Care',
+    'Assistência Médica Comunitária do Vale de Blackstone: Cuidados Medicos Expresso': {
+      abbreviation: 'BVCHC: Cuidados Medicos Expresso',
       website: 'bvchc.org/services/express-health-care',
       image: bvchcHealthExpress,
       rounded: true,
       addresses: [
         {
-          name: 'Pawtucket location',
+          name: 'Localização de Pawtucket',
           street: '39 East Avenue',
           city: 'Pawtucket, RI, 02860',
           phone: '(401) 722-0081',
         },
         {
-          name: 'Central Falls Location',
+          name: 'Localização de Central Falls',
           street: '1000 Broad Street',
           city: 'Central Falls, RI, 02863',
           phone: '(401) 722-0081',
@@ -86,20 +86,20 @@ export default {
       ],
       hours: [
         {
-          name: 'Hours of operation at Pawtucket location (walk-in):',
+          name: 'Horário de funcionamento no local de Pawtucket (sem marcação):',
           options: ['Saturday from 8am–4:30pm'],
         },
         {
-          name: 'Hours of operation at Central falls location (walk-in)',
+          name: 'Horário de funcionamento no local Central Falls (Sem marcação):',
           options: [
-            'Monday–Thursday from 8am–8pm',
-            'Friday 8am–5pm',
-            'Saturday 8am–4:30pm (closed Sundays)',
+            'Segunda-feira a Quinta-feira das 8h às 20h',
+            'Sexta-feira 8:00 - 17:00',
+            'Sábado, das 8h às 16h30 (fechado aos Domingos)',
           ],
         },
       ],
     },
-    'Care New England Medical Group: Family Care Center': {
+    'Grupo de Assistência Médica de Nova Inglaterra: Centro de Assistência à Família': {
       website: 'mhri.org/family-care-center',
       image: careNewEnglandFamily,
       rounded: true,
@@ -111,28 +111,32 @@ export default {
       ],
       hours: [
         {
-          name: 'Schedule an appointment with a primary care physician:',
-          options: ['Team A: (401) 729-2304', 'Team B: (401) 729-2206', 'Team C. (401) 729-2769'],
+          name: 'Agende uma consulta com um médico de cuidados primários:',
+          options: [
+            'Equipe A: (401) 729-2304',
+            'Equipe B: (401) 729-2206',
+            'Equipe C: (401) 729-2769',
+          ],
         },
       ],
       description:
-        'Committed to providing the best health care possible for infants, children, adolescents, pregnant women, and adults of all ages.',
+        'Comprometida em fornecer os melhores cuidados de saúde possíveis para bebês, crianças, adolescentes, mulheres grávidas e adultos de todas as idades.',
     },
-    'Boys Town New England': {
+    'Cidade de Rapazes de Nova Inglaterra': {
       website: 'boystown.org',
       image: boysTown,
       addresses: [
         {
-          name: 'Providence office',
+          name: 'Escritório de Providence',
           street: '294 West Exchange St.',
           city: 'Providence, RI 02903',
           phone: '(401) 214-4960',
         },
       ],
       description:
-        'Since opening in 1991, Boys Town New England has brought life-changing care to tens of thousands of children and families in Rhode Island and surrounding states.',
+        'Desde a abertura em 1991, a Cidade de Rapazes de Nova Inglaterra oferece cuidados de mudança de vida para dezenas de milhares de crianças e famílias em Rhode Island e estados vizinhos.',
     },
-    'Crossroads Rhode Island': {
+    'Encruzilhadas Rhode Island': {
       website: 'crossroadsri.org',
       image: crossRoads,
       addresses: [
@@ -143,9 +147,9 @@ export default {
         },
       ],
       description:
-        'Crossroads Rhode Island has been serving some of the most vulnerable people in Rhode Island since 1894, and are the leading homeless services organization in the state.',
+        'Encruzilhadas Rhode Island atende a algumas das pessoas mais vulneráveis em Rhode Island desde 1894 e é a principal organização de serviços para moradores de rua do estado.',
     },
-    'The Autism Project': {
+    'O Projeto Autismo': {
       website: 'theautismproject.org',
       image: autismProject,
       addresses: [
@@ -156,23 +160,23 @@ export default {
         },
       ],
       description:
-        'The Autism Project provides quality support, training, and programming that is accessible to all for children and adults with Autism Spectrum Disorder (ASD), their families, and those who work with them.',
+        'O Projeto Autismo fornece suporte, treinamento e programação de qualidade acessíveis a todos, para crianças e adultos com Transtorno do Espectro do Autismo (TEA), suas famílias e aqueles que trabalham com eles.',
     },
-    'Home Health and Hospice Care of Nursing Placement': {
+    'Assistência Médica Domiciliar e Cuidados Paliativos de Colocação de Enfermagem': {
       website: 'nursingplacement.com',
       image: healthAndHospice,
       addresses: [
         {
-          name: 'Corporate office',
+          name: 'Escritório Corporativo',
           street: '334 East Avenue',
           city: 'Pawtucket, RI 02860',
           phone: '(401) 728-6500',
         },
       ],
       description:
-        'Home Health & Hospice Care of Nursing Placement is committed to providing quality, cost-effective home health care to all members of the Rhode Island community without regard to social status, national origin, race, color, age, gender, sexual preference, handicap, or political belief.',
+        'Assistência Médica Domiciliar e Cuidados Paliativos de Colocação de Enfermagem  está comprometida em fornecer assistência médica domiciliar de qualidade e econômica a todos os membros da comunidade de Rhode Island, sem levar em consideração o status social, origem nacional, raça, cor, idade, sexo, preferência sexual, deficiência, ou crença política.',
     },
-    'Pawtucket Family Branch YMCA': {
+    'YMCA - Secção Famíliar de Pawtucket': {
       website: 'ymcapawtucket.org',
       image: pawtucketYmca,
       addresses: [
@@ -183,7 +187,7 @@ export default {
         },
       ],
       description:
-        'The Pawtucket Family YMCA is a hub for well-rounded lifestyles, offering people of all ages opportunities to become fit and healthy through physical and knowledge-based activities at an affordable price.',
+        'YMCA - Secção Famíliar de Pawtucket é um centro para estilos de vida equilibrados, oferecendo a pessoas de todas as idades oportunidades para se tornarem fisicamente  preparados  ​​e saudáveis ​​por meio de atividades físicas e baseadas no conhecimento a um preço acessível.',
     },
     'YWCA USA': {
       website: 'ywca.org',
@@ -196,16 +200,16 @@ export default {
           phone: '(401) 769-7450',
         },
         {
-          name: 'Southern Massachusetts',
+          name: 'Sul de Massachusetts',
           street: '20 S 6th Street',
           city: 'New Bedford, MA 02740',
           phone: '(508) 999-3255',
         },
       ],
       description:
-        'YWCA is dedicated to eliminating racism, empowering women and promoting peace, justice, freedom and dignity for all. They are one of the oldest and largest women’s organizations in the nation, serving over 2 million women, girls, and their families.',
+        'A YWCA se dedica a eliminar o racismo, empoderar as mulheres e promover a paz, a justiça, a liberdade e a dignidade para todos. Eles são uma das maiores e mais antigas organizações de mulheres do país, atendendo a mais de 2 milhões de mulheres, meninas e suas famílias.',
     },
-    'Rhode Island Parent Information Network': {
+    'Rede de Informações aos Pais de Rhode Island': {
       website: 'ripin.org',
       image: ripin,
       addresses: [
@@ -216,7 +220,7 @@ export default {
         },
       ],
       description:
-        'RIPIN’s mission is to assist individuals, parents, families, and children to achieve their goals for health, education, and socio-economic well-being by providing information, training, education, support, and advocacy for person/family-centered care and system change.',
+        'A missão do RIPIN é ajudar indivíduos, pais, famílias e crianças a alcançar seus objetivos de saúde, educação e bem-estar socioeconômico, fornecendo informações, treinamento, educação, apoio e advocacia para os cuidados e sistemas centrados na pessoa / família. mudança.',
     },
     'BH Link': {
       website: 'bhlink.org',
@@ -229,9 +233,9 @@ export default {
         },
       ],
       description:
-        'BH Link’s mission is to ensure all Rhode Islanders 18+ experiencing mental health and substance use crises receive the appropriate services they need as quickly as possible in an environment that supports their recovery.',
+        'A missão da BH Link é garantir que todos os Rhode Islanders 18+ com crises de saúde mental e uso de substâncias recebam os serviços adequados de que precisam o mais rápido possível em um ambiente que apóie sua recuperação.',
     },
-    'Blackstone Valley Advocacy Center': {
+    'Centro de Advocacia do Vale Blackstone': {
       website: 'bvadvocacycenter.org',
       image: bavcLogo,
       addresses: [
@@ -242,7 +246,7 @@ export default {
         },
       ],
       description:
-        'The Blackstone Valley Advocacy Center is a nonprofit organization providing comprehensive services to victims of domestic violence as well as education and awareness on the issue of domestic violence for over three decades.',
+        'O Centro de Advocacia do Vale Blackstone é uma organização sem fins lucrativos que presta serviços abrangentes às vítimas de violência doméstica, além de educação e conscientização sobre a questão da violência doméstica há mais de três décadas.',
     },
   },
 };
