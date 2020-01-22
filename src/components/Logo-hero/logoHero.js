@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FormattedMessage } from 'react-intl';
 import styles from './logoHero.module.scss';
-
 import logoCareEN from '../../images/cbtc_logo_english.svg';
 import logoCareES from '../../images/cbtc_logo_spanish.svg';
 import logoCarePT from '../../images/cbtc_logo_portuguese.svg';
@@ -9,6 +8,12 @@ import logoCity from '../../images/office_on_health_badge.svg';
 import chevronDown from '../../images/icons/chevron-down.svg';
 
 const LogoHero = () => {
+  const [selectedLogo, setSelectedLogo] = useState(logoCareEN);
+
+  useEffect(() => {
+    setSelectedLogo(selectLogoLanguage());
+  }, []);
+
   const selectLogoLanguage = () => {
     const language = localStorage.getItem('language');
     switch (language) {
@@ -31,11 +36,7 @@ const LogoHero = () => {
           <div className={styles.logoSide}>
             <div>
               <div className={styles.logoGroup}>
-                <img
-                  src={selectLogoLanguage()}
-                  alt="Care Before The Call"
-                  className={styles.logoCare}
-                />
+                <img src={selectedLogo} alt="Care Before The Call" className={styles.logoCare} />
                 <div className={styles.cityLogo}>
                   <div className={styles.legend}>
                     <p>Brought to you by the</p>

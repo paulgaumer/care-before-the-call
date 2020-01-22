@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ResourcesList from './resources-list';
 import ResourcesCard from './resources-card';
 import resourcesEN from '../../i18n/translations/en/resources';
@@ -6,6 +6,12 @@ import resourcesES from '../../i18n/translations/es/resources';
 import resourcesPT from '../../i18n/translations/pt/resources';
 
 const Resources = () => {
+  const [selectedResource, setSelectedResource] = useState(resourcesEN);
+
+  useEffect(() => {
+    setSelectedResource(selectLanguage());
+  }, []);
+
   const selectLanguage = () => {
     const lg = localStorage.getItem('language');
     switch (lg) {
@@ -22,10 +28,10 @@ const Resources = () => {
 
   return (
     <section className="container">
-      <ResourcesList list={selectLanguage().list} />
+      <ResourcesList list={selectedResource.list} />
       <div>
-        {Object.keys(selectLanguage().list).map(resource => {
-          return <ResourcesCard name={resource} resource={selectLanguage().list[resource]} />;
+        {Object.keys(selectedResource.list).map(resource => {
+          return <ResourcesCard name={resource} resource={selectedResource.list[resource]} />;
         })}
       </div>
     </section>
