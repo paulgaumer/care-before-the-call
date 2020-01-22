@@ -21,7 +21,13 @@ const Portrait = ({ character, image }) => {
           </p>
           <p className={`${styles.description} bio-description-fontsize`}>
             <FormattedMessage id={`behindCampaign.portraits.${character}.description`} />
-            <span className={`${styles.modalTrigger} extra-bold`} onClick={handleShow}>
+            <span
+              className={`${styles.modalTrigger} extra-bold`}
+              onClick={handleShow}
+              onKeyDown={handleShow}
+              role="button"
+              tabIndex={0}
+            >
               Read More
             </span>
           </p>

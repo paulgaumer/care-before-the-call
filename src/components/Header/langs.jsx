@@ -9,6 +9,9 @@ import styles from './langs.module.scss';
 const LangButton = ({ label, chosen, onClick }) => (
   <span
     onClick={onClick}
+    onKeyDown={onClick}
+    role="button"
+    tabIndex={0}
     className={styles.langButton}
     style={{
       borderBottom: chosen ? '2px solid black' : 'none',
@@ -39,6 +42,9 @@ const Langs = ({ intl: { locale } }) => {
             label={language.label}
             chosen={language.locale === locale}
             onClick={() => handleSetLang(language.locale)}
+            onKeyDown={() => handleSetLang(language.locale)}
+            role="button"
+            tabIndex={0}
           />
         );
       })}

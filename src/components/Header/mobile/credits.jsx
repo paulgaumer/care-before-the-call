@@ -1,7 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styles from './credits.module.scss';
-import Socials from '../../socials';
 import citySeal from '../../../images/city_seal.svg';
 import instagramBlack from '../../../images/icons/instagram-black.svg';
 import twitterBlack from '../../../images/icons/twitter-black.svg';

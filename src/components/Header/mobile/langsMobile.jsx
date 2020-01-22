@@ -7,7 +7,7 @@ import PageContext from '../../../layout/PageContext.js';
 import styles from './langsMobile.module.scss';
 
 const LangButton = ({ label, chosen, onClick }) => (
-  <p onClick={onClick} className={styles.langButton}>
+  <p onClick={onClick} onKeyDown={onClick} className={styles.langButton}>
     <span
       style={{
         borderBottom: chosen ? '2px solid black' : 'none',

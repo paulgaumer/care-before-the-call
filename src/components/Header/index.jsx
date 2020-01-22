@@ -34,7 +34,7 @@ const Header = ({ siteTitle, hideLangs }) => {
               </div>
             </div>
             <div className={`${styles.navMobile} d-block d-sm-none`}>
-              <img src={menuIcon} alt="mobile menu" onClick={handleShow} />
+              <img src={menuIcon} alt="mobile menu" onClick={handleShow} onKeyDown={handleShow} />
             </div>
           </div>
         </div>
