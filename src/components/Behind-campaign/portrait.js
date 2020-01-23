@@ -9,6 +9,8 @@ const Portrait = ({ character, image }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const maxCharacters = 410;
+
   return (
     <>
       <div className="col-sm-12 col-md-6 col-lg-4">
@@ -20,20 +22,34 @@ const Portrait = ({ character, image }) => {
             <FormattedMessage id={`behindCampaign.portraits.${character}.role`} />
           </p>
           <p className={`${styles.description} bio-description-fontsize`}>
-            <FormattedMessage id={`behindCampaign.portraits.${character}.description`} />
-            <span
-              className={`${styles.modalTrigger} extra-bold`}
-              onClick={handleShow}
-              onKeyDown={handleShow}
-              role="button"
-              tabIndex={0}
-            >
-              Read More
-            </span>
+            <FormattedMessage
+              id={`behindCampaign.portraits.${character}.description`}
+              // --- Display part or full bio based on length ---
+              children={description => {
+                return description.length > maxCharacters ? (
+                  <span>
+                    {description.slice(0, maxCharacters)}...
+                    <span
+                      className={`${styles.modalTrigger} extra-bold`}
+                      onClick={handleShow}
+                      onKeyDown={handleShow}
+                      role="button"
+                      tabIndex={0}
+                    >
+                      Read More
+                    </span>
+                  </span>
+                ) : (
+                  <span>{description}</span>
+                );
+              }}
+              // -----
+            />
           </p>
         </div>
       </div>
 
+      {/* --- BOOTSTRAP MODAL --- */}
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
           <button
