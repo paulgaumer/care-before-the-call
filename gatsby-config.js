@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Care Before The Call`,
-    description: ``,
+    description: `Care Before The Call`,
     author: ``,
     keywords: [`gatsby`, `application`, `react`],
   },
