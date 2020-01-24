@@ -21,14 +21,14 @@ const Footer = () => {
           <FormattedMessage id={`follow.content`} />
         </p>
         <div className={styles.creditsSocials}>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/officeonhealth/" target="_blank" rel="noopener noreferrer">
             <img src={instagramBlack} alt="instagram" />
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com/OfficeonHealth/" target="_blank" rel="noopener noreferrer">
             <img src={facebookBlack} alt="facebook" />
           </a>
 
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/OfficeonHealth/" target="_blank" rel="noopener noreferrer">
             <img src={twitterBlack} alt="twitter" />
           </a>
         </div>
