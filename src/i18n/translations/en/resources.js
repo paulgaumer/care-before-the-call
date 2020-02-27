@@ -12,6 +12,7 @@ import ywcaUsa from '../../../images/resources-logos/ywca_logo.png';
 import ripin from '../../../images/resources-logos/ripin_logo.png';
 import bhLink from '../../../images/resources-logos/bh_link_logo.png';
 import bavcLogo from '../../../images/resources-logos/bvac_logo.svg';
+import jenksLogo from '../../../images/resources-logos/jenks_park_pediatrics_logo.jpg';
 
 export default {
   title: 'Resources',
@@ -98,6 +99,19 @@ export default {
           ],
         },
       ],
+    },
+    'Jenks Park Pediatrics': {
+      image: jenksLogo,
+      rounded: true,
+      addresses: [
+        {
+          street: '577 Broad Street',
+          city: 'Central Falls, RI 02863',
+          phone: '(401) 305-1950',
+        },
+      ],
+      description:
+        'Serving children, adolescents, and young adults in the Central Falls area; providing excellent medical care in Spanish and English that is convenient, comfortable, and low cost. {br}{br}Dr. Nelken has 18 years’ experience serving the Latin communities of RI, including 4 years in Central Falls.',
     },
     'Care New England Medical Group: Family Care Center': {
       website: 'mhri.org/family-care-center',

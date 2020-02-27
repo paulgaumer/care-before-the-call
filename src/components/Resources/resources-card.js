@@ -41,6 +41,7 @@ const ResourcesCard = ({ resource, name }) => {
       </div>
       <div className={styles.info}>
         <h2>{name}</h2>
+        {resource.website !== undefined && (
         <a
           href={`http://${resource.website}`}
           target="_blank"
@@ -49,6 +50,7 @@ const ResourcesCard = ({ resource, name }) => {
         >
           <FormattedMessage id={`resources.list.${name}.website`} />
         </a>
+        )}
         <div className={styles.addressesDetails}>
           {resource.addresses.map(address => (
             <Addresses address={address} />
@@ -56,7 +58,10 @@ const ResourcesCard = ({ resource, name }) => {
         </div>
         {resource.description !== undefined && (
           <p className={styles.description}>
-            <FormattedMessage id={`resources.list.${name}.description`} />
+            <FormattedMessage
+              id={`resources.list.${name}.description`}
+              values={{ br: <br />  }}
+            />
           </p>
         )}
         {resource.hours !== undefined && (
