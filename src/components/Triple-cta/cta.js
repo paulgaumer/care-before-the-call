@@ -23,7 +23,7 @@ const Cta = props => {
             </p>
           </div>
           <div className={`${styles.btnSide} extra-bold`}>
-            <a href={link}>
+            <a target='_blank' rel="noopener noreferrer" href={link}>
               <FormattedHTMLMessage id={`tripleCta.${cta}.cta`} />
             </a>
           </div>

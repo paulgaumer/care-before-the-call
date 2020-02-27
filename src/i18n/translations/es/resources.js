@@ -52,7 +52,7 @@ export default {
     },
     'Cuidados Médicos de la Comunidad del Valle Blackstone: Estación de Salud Vecinal': {
       abbreviation: 'BVCHC: Estación de Salud Vecinal',
-      website: 'bvchc.org',
+      website: 'www.bvchc.org',
       image: bvchcHealthStation,
       rounded: true,
       addresses: [
@@ -67,7 +67,7 @@ export default {
     },
     'Cuidados Médicos de la Comunidad del Valle Blackstone: Asistencia Médica Urgente': {
       abbreviation: 'BVCHC: Asistencia Médica Urgente',
-      website: 'bvchc.org/services/express-health-care',
+      website: 'www.bvchc.org/services/express-health-care',
       image: bvchcHealthExpress,
       rounded: true,
       addresses: [

@@ -52,7 +52,7 @@ export default {
     },
     'Blackstone Valley Community Health Care: Neighborhood Health Station': {
       abbreviation: 'BVCHC: Neighborhood Health Station',
-      website: 'bvchc.org',
+      website: 'www.bvchc.org',
       image: bvchcHealthStation,
       rounded: true,
       addresses: [
@@ -67,7 +67,7 @@ export default {
     },
     'Blackstone Valley Community Health Care: Express Health Care': {
       abbreviation: 'BVCHC: Express Health Care',
-      website: 'bvchc.org/services/express-health-care',
+      website: 'www.bvchc.org/services/express-health-care',
       image: bvchcHealthExpress,
       rounded: true,
       addresses: [

@@ -14,7 +14,11 @@ const Footer = () => {
                 <span className="extra-bold">
                   <FormattedMessage id={`footer.cbtc`} />
                 </span>{' '}
-                <FormattedMessage id={`footer.content`} />
+                  <FormattedMessage id={`footer.content`}
+                    values={{
+                      debEmail: <a href="mailto:dnavarro@centralfallsri.us">dnavarro@centralfallsri.us</a>,
+                      emEmail: <a href="mailto:erizzo@centralfallsri.us">erizzo@centralfallsri.us</a>,
+                    }} />
               </p>
               <img src={citySeal} alt="city of Central Falls" />
               <p>
