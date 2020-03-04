@@ -3,12 +3,12 @@ import { FormattedMessage } from 'react-intl';
 import styles from './resources-list.module.scss';
 import arrowDown from '../../images/icons/arrow-down.svg';
 
-const ResourcesLists = ({ list }) => {
+const ResourcesLists = ({ name, list }) => {
   return (
     <div className={styles.resources}>
       <div className={styles.title}>
         <h2 className="extra-bold">
-          <FormattedMessage id={`resources.title`} />
+          <FormattedMessage id={`resources.${name}.title`} />
         </h2>
       </div>
       <div className={styles.list}>
@@ -16,7 +16,7 @@ const ResourcesLists = ({ list }) => {
           {Object.keys(list).map(resource => {
             const name = list[resource].abbreviation ? list[resource].abbreviation : resource;
             return (
-              <li>
+              <li key={resource}>
                 <a href={`#${resource}`}>
                   <img src={arrowDown} alt="arrow" />
                   <span>{name}</span>

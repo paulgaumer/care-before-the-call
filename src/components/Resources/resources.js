@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ResourcesList from './resources-list';
-import ResourcesCard from './resources-card';
+import ResourcesCardList from './resources-card-list';
 import resourcesEN from '../../i18n/translations/en/resources';
 import resourcesES from '../../i18n/translations/es/resources';
 import resourcesPT from '../../i18n/translations/pt/resources';
@@ -28,10 +28,12 @@ const Resources = () => {
 
   return (
     <section className="container">
-      <ResourcesList list={selectedResource.list} />
+        {Object.keys(selectedResource).map((resource) => {
+          return <ResourcesList key={resource} name={resource} list={selectedResource[resource].list} />
+        })}
       <div>
-        {Object.keys(selectedResource.list).map(resource => {
-          return <ResourcesCard name={resource} resource={selectedResource.list[resource]} />;
+        {Object.keys(selectedResource).map(resource => {
+          return <ResourcesCardList key={resource} resourcesListName={resource} resourcesList={selectedResource[resource].list} />;
         })}
       </div>
     </section>

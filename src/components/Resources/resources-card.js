@@ -29,7 +29,7 @@ const Hours = ({ hour, index, name }) => {
   );
 };
 
-const ResourcesCard = ({ resource, name }) => {
+const ResourcesCard = ({ resource, listName, name }) => {
   return (
     <div className={styles.resourceCard} id={name}>
       <div className={styles.image}>
@@ -48,7 +48,7 @@ const ResourcesCard = ({ resource, name }) => {
           rel="noopener noreferrer"
           className="extra-bold"
         >
-          <FormattedMessage id={`resources.list.${name}.website`} />
+          <FormattedMessage id={`resources.${listName}.list.${name}.website`} />
         </a>
         )}
         <div className={styles.addressesDetails}>
@@ -59,7 +59,7 @@ const ResourcesCard = ({ resource, name }) => {
         {resource.description !== undefined && (
           <p className={styles.description}>
             <FormattedMessage
-              id={`resources.list.${name}.description`}
+              id={`resources.${listName}.list.${name}.description`}
               values={{ br: <br />  }}
             />
           </p>
