@@ -1,20 +1,11 @@
 @import '../../scss/fonts.scss';
 @import '../../scss/media.scss';
 
-.resources {
-  display: flex;
-  padding: 100px 0;
-}
-
-.title {
-  flex: 0 0 40%;
-  text-align: center;
-}
-
 .list {
   ul {
     font-weight: $semi-bold;
     list-style: none;
+    padding-left: 0;
 
     img {
       display: inline-block;
@@ -37,7 +28,6 @@
 @media (max-width: $screen-sm) {
   .resources {
     display: block;
-    padding: 10px 0 30px;
   }
   .title {
     text-align: start;
@@ -48,13 +38,12 @@
     }
   }
 }
-@media (max-width: $screen-md) {
-  .resources {
-    padding: 15px 0 30px;
+
+@media (max-width: $screen-xs) {
+  .title {
+    h2 {
+      margin: 5px 0 20px 0;
+    }
   }
 }
-@media (max-width: $screen-lg) {
-  .resources {
-    padding: 50px 0;
-  }
-}
+

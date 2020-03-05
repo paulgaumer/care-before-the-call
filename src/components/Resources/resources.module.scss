@@ -1,0 +1,37 @@
+@import '../../scss/media.scss';
+
+.resourcesLists {
+  padding: 70px 0 100px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+@media (max-width: $screen-lg) {
+  .resourcesLists {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: $screen-md) {
+  .resourcesLists {
+    padding: 15px 0 30px;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .resourcesLists {
+    padding: 10px 0 30px;
+  }
+}
+
+@media (max-width: $screen-xs) {
+  .resourcesListsContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .resourcesLists {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,24 @@
+@import '../../scss/fonts.scss';
+@import '../../scss/media.scss';
+
+.resourcesCardList {
+}
+
+.title {
+  padding: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f1f1;
+  margin-bottom: 60px;
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .title {
+    margin-bottom: 30px;
+  }
+}

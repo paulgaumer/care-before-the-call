@@ -81,6 +81,7 @@ export default {
         'Serving children, adolescents, and young adults in the Central Falls area; providing excellent medical care in Spanish and English that is convenient, comfortable, and low cost. {br}{br}Dr. Nelken has 18 years’ experience serving the Latin communities of RI, including 4 years in Central Falls.',
       },
       'Care New England Medical Group: Family Care Center': {
+        abbreviation: 'Care New England: Family Care Center',
         website: 'mhri.org/family-care-center',
         image: careNewEnglandFamily,
         rounded: true,
@@ -179,6 +180,7 @@ export default {
         'The Autism Project provides quality support, training, and programming that is accessible to all for children and adults with Autism Spectrum Disorder (ASD), their families, and those who work with them.',
       },
       'Home Health and Hospice Care of Nursing Placement': {
+        abbreviation: 'Nursing Placement',
         website: 'nursingplacement.com',
         image: healthAndHospice,
         addresses: [
