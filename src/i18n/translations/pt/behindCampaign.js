@@ -2,7 +2,7 @@ export default {
   'who-behind-campaign': {
     title: 'Quem está por trás da campanha?',
     content:
-      '<strong>O Escritório de Saúde de Central Falls</strong>, é responsável por ajudar Central Falls a se tornar a cidade mais saudável de Rhode Island. Em coordenação com vários grupos de nossa comunidade unida, trabalhamos para garantir que todos os residentes de Central Falls obtenham os serviços de saúde de que precisam e que esses serviços de saúde sejam eficazes para melhorar a saúde de todos na cidade. Desde a sua criação pelo Presidente da Câmara Municiapl James Diossa, em abril de 2016, o Escritório de Saúde ajudou o presidente e os conslheiros Múnicipais,  a tomar decisões relacionadas à saúde para a comunidade.',
+      '<strong>O Escritório de Saúde de Central Falls</strong>, tem a tarefa de ajudar Central Falls a se tornar a cidade mais saudável do estado. Foi iniciado pelo presidente da Câmara, James Diossa em abril de 2016 e desde então ajudou o presidente e o conselho munícipal da cidade a tomar decisões baseadas em saúde para nossos residentes. O Escritório de Saúde se une a muitos grupos da nossa comunidade para ver os residentes obterem os serviços de saúde de que precisam. Trabalhamos duro para garantir que esses serviços melhorem a saúde de todos na cidade.',
   },
   portraits: {
     'James Diossa': {

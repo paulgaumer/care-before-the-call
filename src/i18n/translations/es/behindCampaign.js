@@ -2,7 +2,7 @@ export default {
   'who-behind-campaign': {
     title: '¿Quién está detrás de la campaña?',
     content:
-      '<strong>La Oficina de Salud de Central Falls</strong> está encargada de ayudar a Central Falls a convertirse en la ciudad más saludable de Rhode Island. En coordinación con varios grupos dentro de nuestra comunidad muy unida, trabajamos para asegurarnos de que todos los residentes de Central Falls reciban los servicios de salud que necesitan, y que esos servicios de salud sean efectivos para mejorar la salud de todos en la ciudad. Desde su creación por el alcalde James Diossa en abril de 2016, la Oficina de Salud ha ayudado tanto al Alcalde como al Ayuntamiento a tomar decisiones relacionadas con la salud para la comunidad.',
+      '<strong>La Oficina de Salud de Central Falls</strong> tiene la tarea de ayudar a Central Falls a convertirse en la ciudad más saludable del estado. Fue iniciado por el alcalde James Diossa en abril de 2016 y desde entonces ha ayudado al alcalde y al concejo municipal a tomar decisiones basadas en la salud para nuestros residentes. La Oficina de Salud se une a muchos grupos en nuestra comunidad para ver a los residentes obtener los servicios de salud que necesitan. Trabajamos duro para garantizar que estos servicios mejoren la salud de todos en la ciudad.',
   },
   portraits: {
     'James Diossa': {

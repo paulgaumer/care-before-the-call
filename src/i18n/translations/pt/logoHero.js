@@ -1,13 +1,13 @@
 export default {
   'what-is-btc': {
-    cbtc: 'Cuidado antes da Chamada™',
+    cbtc: 'Cuide-se Antes da Chamada™',
     title: 'O que é',
     content:
-      ', está sendo criada para ajudar o 911 a funcionar melhor em Central Falls, educando os residentes sobre as diferenças entre as necessidades emergenciais e não emergenciais, informando-os sobre os recursos de saúde disponíveis na cidade. Incentiva um comportamento proativo, como usar o Centro de Cuidados Expresso  ou agendar consultas regulares com um médico de família, na esperança de atender às necessidades de cuidados de saúde de indivíduos e da comunidade como um todo - antes que eles requeiram atendimento de emergência.',
+      ', foi criado para ajudar o 911 a funcionar melhor em Central Falls. Ensina aos residentes a diferença entre necessidades emergenciais e não emergenciais. Também os informa sobre as opções de assistência médica na cidade e nos arredores. Ele incentiva a marcar visitas regulares com seu médico de família; ou usando o cuidado médico Expresso quando estiver doente e não tiver um médico de família. Nosso objetivo é ajudar a tornar Central Falls a comunidade mais saudável de Rhode Island!',
   },
   'why-important': {
-    title: 'Por que é isso importante ?',
+    title: 'Por que é isso importante?',
     content:
-      'Chamadas 911 desnecessárias na comunidade de Central Falls podem aumentar os recursos da cidade e comprometer o atendimento de emergência de qualidade para aqueles que realmente precisam. Quando os indivíduos adotam o Cuidado antes da Chamada e se tornam participantes ativos de sua saúde pessoal, usando os recursos disponíveis, como médicos de família no posto de saúde do bairro Blackstone Valley, esperamos reduzir o número de 911 chamadas desnecessárias na cidade de Central Falls enquanto trabalhamos. para se tornar a comunidade mais saudável de Rhode Island.',
+      'Muitas chamadas para o 911 em Central Falls não são sobre emergências. Com apenas uma ambulância em nossa cidade, ligar para o 911 com um resfriado pode impedir que o EMS salve alguém que tenha um ataque cardíaco ou derrame. Quando os residentes cuidam de suas necessidades de cuidados de saúde usando opções perto de casa, esperamos receber menos chamadas de emergência como resultado. Ajude nossos 911 heróis! Ligue para o seu médico de família quando estiver doente. Economize o 911 para emergências.',
   },
 };
