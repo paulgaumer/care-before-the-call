@@ -78,7 +78,7 @@ export default {
           },
         ],
         description:
-        'Serving children, adolescents, and young adults in the Central Falls area; providing excellent medical care in Spanish and English that is convenient, comfortable, and low cost. {br}{br}Dr. Nelken has 18 years’ experience serving the Latin communities of RI, including 4 years in Central Falls.',
+        `Serving children, adolescents, and young adults in the Central Falls area; providing excellent medical care in Spanish and English that is convenient, comfortable, and low cost.<br><br>Dr. Nelken has 18 years’ experience serving the Latin communities of RI, including 4 years in Central Falls.`,
       },
       'Care New England Medical Group: Family Care Center': {
         abbreviation: 'Care New England: Family Care Center',

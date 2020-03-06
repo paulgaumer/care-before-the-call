@@ -78,7 +78,7 @@ export default {
           },
         ],
         description:
-        'Serving children, adolescents, and young adults in the Central Falls area; providing excellent medical care in Spanish and English that is convenient, comfortable, and low cost. {br}{br}Dr. Nelken has 18 years’ experience serving the Latin communities of RI, including 4 years in Central Falls.',
+        `O Dr. Nelken tem 18 anos de experiência em servir as comunidades latinas do RI, incluindo 4 anos em Central Falls.<br ><br >Atendendo crianças, adolescentes e jovens adultos na área de Central Falls; proporcionando excelente atendimento médico em espanhol e inglês, conveniente, confortável e de baixo custo.`,
       },
       'Grupo de Assistência Médica de Nova Inglaterra: Centro de Assistência à Família': {
         website: 'mhri.org/family-care-center',

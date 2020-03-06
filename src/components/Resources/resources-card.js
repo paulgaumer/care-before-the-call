@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { FormattedHTMLMessage } from 'react-intl';
 import styles from './resources-card.module.scss';
 
 const Addresses = ({ address }) => {
@@ -58,9 +59,9 @@ const ResourcesCard = ({ resource, listName, name }) => {
         </div>
         {resource.description !== undefined && (
           <p className={styles.description}>
-            <FormattedMessage
+            <FormattedHTMLMessage
               id={`resources.${listName}.list.${name}.description`}
-              values={{ br: <br />  }}
+              // values={{ br: <br />  }}
             />
           </p>
         )}
