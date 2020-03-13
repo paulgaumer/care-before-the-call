@@ -1,6 +1,6 @@
 export default {
   title: 'Footer',
-  cbtc: 'Cuidado antes de la llamada™',
+  cbtc: 'Cuidese Antes de la Llamada™',
   content:
     ', es traído a usted por la Oficina de Salud de Central Falls. Para consultas generales, póngase en contacto con Deborah Navarro en {debEmail} o Emily Rizzo en {emEmail}',
   copyright:

@@ -16,10 +16,10 @@ import jenksLogo from '../../../images/resources-logos/jenks_park_pediatrics_log
 
 export default {
   'family-care' : {
-    title: 'Family Care',
+    title: 'Médico de Familia',
     list: {
-      'Cuidados Médicos de la Comunidad del Valle Blackstone: Estación de Salud Vecinal': {
-        abbreviation: 'BVCHC: Estación de Salud Vecinal',
+      'Blackstone Valley Community Health Care: Estación de Salud de Central Falls': {
+        abbreviation: 'BVCHC: Estación de Salud de Central Falls',
         website: 'www.bvchc.org',
         image: bvchcHealthStation,
         rounded: true,
@@ -33,8 +33,8 @@ export default {
         description:
         'La Estación de Salud Vecinal del Valle Blackstone ha desarrollado un equipo de trabajadores de la salud que cuidan juntos a todos los que viven en Central Falls.',
       },
-      'Cuidados Médicos de la Comunidad del Valle Blackstone: Asistencia Médica Urgente': {
-        abbreviation: 'BVCHC: Asistencia Médica Urgente',
+      'Blackstone Valley Community Health Care: Express Care': {
+        abbreviation: 'BVCHC: Express Care',
         website: 'www.bvchc.org/services/express-health-care',
         image: bvchcHealthExpress,
         rounded: true,
@@ -107,7 +107,7 @@ export default {
     },
   },
   'additional-resources' : {
-    title: 'Additional Resources',
+    title: 'Más Recursos',
     list: {
       'El Centro de Providence': {
         website: 'providencecenter.org',
@@ -256,7 +256,7 @@ export default {
         description:
         'La misión de BH Link es garantizar que todas las personas mayores de 18 años que padecen crisis de salud mental y uso de sustancias reciban los servicios apropiados que necesitan lo más rápido posible en un entorno que respalde su recuperación.',
       },
-      'Centro de Abogacía del Valle Blackstone': {
+      'Centro de Abogacía del Blackstone Valley': {
         website: 'bvadvocacycenter.org',
         image: bavcLogo,
         addresses: [

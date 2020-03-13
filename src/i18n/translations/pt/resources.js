@@ -16,10 +16,10 @@ import jenksLogo from '../../../images/resources-logos/jenks_park_pediatrics_log
 
 export default {
   'family-care': {
-    title: 'Family Care',
+    title: 'Médico de Família',
     list: {
-      'Assistência Médica Comunitária do Vale de Blackstone : Estação de saúde do bairro': {
-        abbreviation: 'BVCHC: Estação de saúde do bairro',
+      'Blackstone Valley Community Health Care: Estação de Saúde de Bairro de Central Falls': {
+        abbreviation: 'BVCHC: Estação de Saúde de Central Falls',
         website: 'www.bvchc.org',
         image: bvchcHealthStation,
         rounded: true,
@@ -33,8 +33,8 @@ export default {
         description:
         'A Estação de Saúde de Bairro de Vae de Blackstone desenvolveu uma equipa de profissionais de saúde que, juntos, cuidam de todos que vivem em Central Falls.',
       },
-      'Assistência Médica Comunitária do Vale de Blackstone: Cuidados Medicos Expresso': {
-        abbreviation: 'BVCHC: Cuidados Medicos Expresso',
+      'Blackstone Valley Community Health Care: Express Care': {
+        abbreviation: 'BVCHC: Express Care',
         website: 'www.bvchc.org/services/express-health-care',
         image: bvchcHealthExpress,
         rounded: true,
@@ -107,7 +107,7 @@ export default {
     },
   },
   'additional-resources': {
-    title: 'Additional Resources',
+    title: 'Mais Recursos',
     list: {
       'O Centro de Providence': {
         website: 'providencecenter.org',
@@ -256,7 +256,7 @@ export default {
         description:
         'A missão da BH Link é garantir que todos os Rhode Islanders 18+ com crises de saúde mental e uso de substâncias recebam os serviços adequados de que precisam o mais rápido possível em um ambiente que apóie sua recuperação.',
       },
-      'Centro de Advocacia do Vale Blackstone': {
+      'Centro de Advocacia do Blackstone Valley': {
         website: 'bvadvocacycenter.org',
         image: bavcLogo,
         addresses: [
