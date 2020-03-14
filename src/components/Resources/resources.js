@@ -6,10 +6,14 @@ import resourcesEN from '../../i18n/translations/en/resources';
 import resourcesES from '../../i18n/translations/es/resources';
 import resourcesPT from '../../i18n/translations/pt/resources';
 
-const Resources = () => {
-  const [selectedResource, setSelectedResource] = useState(resourcesEN);
+const Resources = ({ location }) => {
+  const lang = location.pathname.replace(/\//g, '');
+  const [selectedResource, setSelectedResource] = useState('');
 
   useEffect(() => {
+    if (typeof window !== undefined) {
+      localStorage.setItem('language', lang);
+    }
     setSelectedResource(selectLanguage());
   }, []);
 
@@ -31,13 +35,25 @@ const Resources = () => {
     <section className="container">
       <div className={styles.resourcesListsContainer}>
         <div className={styles.resourcesLists}>
-          {Object.keys(selectedResource).map((resource) => {
-            return <ResourcesList key={resource} name={resource} list={selectedResource[resource].list} />
+          {Object.keys(selectedResource).map(resource => {
+            return (
+              <ResourcesList
+                key={resource}
+                name={resource}
+                list={selectedResource[resource].list}
+              />
+            );
           })}
         </div>
       </div>
       {Object.keys(selectedResource).map(resource => {
-        return <ResourcesCardList key={resource} resourcesListName={resource} resourcesList={selectedResource[resource].list} />;
+        return (
+          <ResourcesCardList
+            key={resource}
+            resourcesListName={resource}
+            resourcesList={selectedResource[resource].list}
+          />
+        );
       })}
     </section>
   );

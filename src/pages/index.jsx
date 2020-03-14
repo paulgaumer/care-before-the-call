@@ -8,12 +8,12 @@ import Resources from '../components/Resources/resources';
 import Follow from '../components/Follow/follow';
 import Footer from '../components/Footer/footer';
 
-const IndexPage = () => (
+const IndexPage = ({ location }) => (
   <>
     <LogoHero />
     <BehindCampaign />
     <TripleCta />
-    <Resources />
+    <Resources location={location} />
     <Follow />
     <Footer />
   </>
